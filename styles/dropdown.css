@@ -104,6 +104,7 @@ body {
   max-height:2000px;
   padding:0 18px 18px 18px;
   opacity:1;
+  animation: up-and-down .32s ease;
 }
 
 .specs{
