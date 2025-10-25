@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="styles/dropdown.css" rel="stylesheet" />
+  <title>DropDown</title>
+</head>
+<body>
+  <header class="header">
+    <h1>Produktinformation</h1>
+  </header>
+  <main class="main-content">
+  <div class="accordion">
+    <div class="dom">
+      <input id="card1" class="toggle" type="checkbox" />
+      <label class="head" for="card1" aria-controls="c1" aria-expanded="false">
+        <h3>Detaljer</h3>
+        <span class="pm" aria-hidden="true"></span>
+      </label>
+      <div id="c1" class="content">
+        <div class="specs">
+          <div class="col">
+            <div class="row"><span class="label">Yta</span><span class="value">Väg</span></div>
+            <div class="row"><span class="label">Häldrop</span><span class="value">5 mm</span></div>
+            <div class="row"><span class="label">Vikt</span><span class="value">185 g/6.5 oz</span></div>
+          </div>
+          <div class="col">
+            <div class="row">
+              <span class="label">Stöd</span><span class="value">Neutral</span>
+              <div class="bar"><span style="width:55%"></span></div>
+            </div>
+            <div class="row">
+              <span class="label">Dämpning</span><span class="value">Normal</span>
+              <div class="bar"><span style="width:35%"></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dom">
+      <input id="card2" class="toggle" type="checkbox" />
+      <label class="head" for="card2" aria-controls="c2" aria-expanded="false">
+        <h3>Pronation</h3>
+        <span class="pm" aria-hidden="true"></span>
+      </label>
+      <div id="c2" class="content">
+        <p class="muted">Designad för <strong>Neutral / Underpronation</strong></p>
+        <div class="two-col">
+          <div class="card-col">
+            <img class="illu" src="styles/images/pic1.png" alt="Neutral pronation illustration" />
+            <h4>Neutral</h4>
+            <div class="grid-desc">
+              <div>
+                <p class="label">Fottype</p>
+                <p>Fotvalv i normal storlek</p>
+              </div>
+              <div>
+                <p class="label">Avstamp</p>
+                <p>En jämn distribution sker från fotens framdel.</p>
+              </div>
+              <div>
+                <p class="label">Hur din fot möter marken</p>
+                <p>Foten landar på utsidan av hälen och rullar sedan inåt för att absorbera stötar och bidra till kroppsvikten.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-col">
+            <img class="illu" src="styles/images/pic2.png" alt="Underpronation illustration" />
+            <h4>Underpronation</h4>
+            <div class="grid-desc">
+              <div>
+                <p class="item-title">Fottype</p>
+                <p>Höga fotvalv</p>
+              </div>
+              <div>
+                <p class="item-title">Avstamp</p>
+                <p>Trycket ligger på de mindre tårna på fotens utsida.</p>
+              </div>
+              <div>
+                <p class="item-title">Hur din fot möter marken</p>
+                <p>Den yttre delen av hälen möter marken i en ökad vinkel med liten eller ingen normal pronation, vilket medför en stor överföring av stötkraften till underbenet.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dom">
+      <input id="card3" class="toggle" type="checkbox" />
+      <label class="head" for="card3" aria-controls="c3" aria-expanded="false">
+        <h3>Teknik och funktioner</h3>
+        <span class="pm" aria-hidden="true"></span>
+      </label>
+      <div id="c3" class="content">
+        <div class="two-col list-cols">
+          <div class="feature-list">
+            <p><span>MOTION WRAP 2.0</span>-överdelen har utformats för att ge förbättrad ventilation och komfort</p>
+            <p>Kurvad sula hjälper löpare att spara mer energi i varje steg</p>
+            <p>Yttersula i <span>ASICSGRIP</span>-gummi ger förbättrad slitstyrka och grepp</p>
+            <p>Innersulan har färgats med en teknik som minskar vattenanvändningen med cirka 33 procent och koldioxidutsläppen med cirka 45 procent jämfört med konventionell färgningsteknik</p>
+          </div>
+          <div class="feature-list">
+            <p><strong>FF TURBO PLUS</strong>-dämpning ger bättre kompression och sparar mer energi</p>
+            <p>Kolfiberplatta som guidar och driver foten framåt i löpsteget</p>
+            <p>Minst 50 procent av skons överdel är tillverkad av återvunna material för att minska avfall och koldioxidutsläpp</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dom">
+      <input id="card4" class="toggle" type="checkbox" />
+      <label class="head" for="card4" aria-controls="c4" aria-expanded="false">
+        <h3>Beskrivning</h3>
+        <span class="pm" aria-hidden="true"></span>
+      </label>
+      <div id="c4" class="content">
+        <div class="desc">
+          <p>Tävlingsskon METASPEED EDGE PARIS har utformats för kadenslöpare som vill starta snabbt och komma i mål snabbare. Dessa skor hjälper löpare att springa snabbare genom att öka antalet steg och sparar samtidigt energi.</p>
+          <p>Det energigivande skummet i skons mellansula och den framåtdrivande kolfiberplattan gör att löpare kan spara mer energi och bibehålla sin hastighet i tävlingens senare skede. Denna uppdatering kommer även att göra det enklare för dig att ta dig igenom 30 km-muren.</p>
+          <p>Förutom den lättare konstruktionen har dessa skor även FF TURBO PLUS-dämpning. Detta ger förbättrad kompression och sparar samtidigt mer energi.</p>
+          <p><span>Modellnr:</span> 1013A124.400</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </main>
+</body>
+</html>
